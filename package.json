@@ -1,0 +1,25 @@
+{
+  "name": "websocket_boilerplate",
+  "version": "1.0.0",
+  "description": "This will help get you started when connecting a websocket to your app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waysketch/websocket_boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waysketch/websocket_boilerplate/issues"
+  },
+  "homepage": "https://github.com/waysketch/websocket_boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "ws": "^7.4.4"
+  }
+}
