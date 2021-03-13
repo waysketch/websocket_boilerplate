@@ -17,6 +17,8 @@ const connectToWebSocket = () => {
     // === Someone Connected === //
     wss.addListener('connection', function connection(ws){
 
+        ws.send("You are now connected to the web socket!");
+
         // Set isAlive to true on our WebSocket
         ws.isAlive = true;
 
